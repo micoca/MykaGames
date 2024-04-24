@@ -1,0 +1,95 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 50px;
+}  
+
+.pages{
+    background-color: #f2e3e6;    ;
+}
+
+.container{
+    margin: 1 auto;
+    max-width: 800px;
+}
+
+header{
+    background-color: #f2e3e6;
+    padding: 20px;
+}
+
+header h1{
+    color:#d5005a;
+    font-size: 100px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: 2000;
+    font-style: italic;
+    display: inline-block;
+    position: static;
+    bottom: 35px;
+    margin-left: 100px;
+}
+
+nav{
+    background-color: #e67f93;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    font-family: 'Prompt', Static;
+    color:#d5005a;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: #e67f93;
+}
+
+footer{
+    background-color: #e67f93;
+    clear: both;
+    font-family: 'Prompt', Static;
+    color: #d5005a;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo{
+    background-color:  #f0abb9;
+}
+ 
+holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.texto h3{
+    font-family: 'Bungee', sans-serif; 
+    color: #d5005a;
+}
+
+.texto p{
+    font-family: 'Prompt',static;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e67f93;
+}
+
